@@ -46,7 +46,9 @@ paddlex_genai_server --model_name PaddleOCR-VL-0.9B --backend vllm --port 8118
 
 接下来可以另外开一个session窗口，然后conda activate ppocr-vllm，调用上面的vllm接口执行ocr识别。
 
-
+参考文献：
+1. https://blog.csdn.net/m0_63137469/article/details/153460610
+2. https://www.paddleocr.ai/main/version3.x/pipeline_usage/PaddleOCR-VL.html
 
 
 
