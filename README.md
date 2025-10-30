@@ -25,9 +25,11 @@ python -c "import vllm; print(f'vLLM version: {vllm.__version__}')"
 在步骤3的时候可能会有一下问题
 报错1：
 <img width="830" height="166" alt="image" src="https://github.com/user-attachments/assets/1f3f1fc3-d0cf-4617-b5c2-9a7b8ec22a76" />
+
 一直在这里卡着直到报错，我们可以到这里直接crtl+c直接退出。
 报错2：
 <img width="1311" height="217" alt="image" src="https://github.com/user-attachments/assets/0b3215f0-2acf-445f-8b5a-4a9bc15ad515" />
+
 我自己有一段乱操作之后右侧出现过上面这个图片的问题，看报错信息说明的是torch版本不对，因此我重新卸载了torch，重新执行步骤3的命令，他会重新帮我们下载好torch对应的版本。
 
 对于报错1，是flash-atten没有安装好的话，我们可以自己去找对应的安装包，然后将下载好的安装包传到你的服务器上并安装。
